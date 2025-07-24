@@ -27,7 +27,7 @@ const Save = ({ attributes }) => {
 	if (!disableLightBox) {
 		lightBoxHtml = {
 			...lightBoxHtml,
-			["data-fslightbox"]: "gallery",
+			["data-fslightbox"]: `gallery-${blockId}`,
 			["data-type"]: "image",
 		};
 	}
